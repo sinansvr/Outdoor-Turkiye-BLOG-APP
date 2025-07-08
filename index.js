@@ -14,7 +14,7 @@ app.use(express.json())
 app.all("/", (req, res)=>{
 
     res.status(200).send({
-        message: "Api is active"
+        message: "Welcome to Outdoor Turkiye Blog App"
     })
 })
 
