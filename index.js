@@ -16,5 +16,6 @@ app.all("/", (req, res)=>{
     })
 })
 
+app.use(require("./middlewares/errorHandler"))
 
 app.listen(PORT, HOST, () => console.log(`http://${HOST}:${PORT}`))
