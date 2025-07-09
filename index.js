@@ -15,7 +15,7 @@ app.use(express.json())
 require('express-async-errors')
 
 //DB Connection
-const {dbConnection} = require("./src/config/dbConnection")
+const {dbConnection} = require("./src/configs/dbConnection")
 dbConnection()
 
 //Home path
